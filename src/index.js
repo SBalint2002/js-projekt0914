@@ -2,8 +2,6 @@
 import _ from 'lodash';
 import { LOREM, NEV } from './szovegek/kulonleges.js';
 import { veletlen } from './matek.js';
-import 'bootstrap/dist/css/bootstrap.css';
-import bs from 'bootstrap';
 
 console.log("Hello");
 console.log(veletlen(5,10));
@@ -16,3 +14,9 @@ let t3 = [2];
 
 let osszefuzott = _.concat(t1, t2, t3);
 console.log(osszefuzott);
+
+function katt(){
+    alert('Katt');
+}
+
+document.getElementById('gomb').addEventListener('click', katt);
