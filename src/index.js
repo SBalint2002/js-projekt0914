@@ -2,6 +2,8 @@
 import _ from 'lodash';
 import { LOREM, NEV } from './szovegek/kulonleges.js';
 import { veletlen } from './matek.js';
+import 'bootstrap/dist/css/bootstrap.css';
+import bs from 'bootstrap';
 
 console.log("Hello");
 console.log(veletlen(5,10));
