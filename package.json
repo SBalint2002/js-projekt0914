@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/SBalint2002/js-projekt0914#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }
